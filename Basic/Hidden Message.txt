@@ -1,0 +1,5 @@
+Challenge Name:  Hidden Message
+
+Writeup:
+
+https://medium.com/@B2A5_Cyber/digital-forensics-hidden-message-ad208f3632cf

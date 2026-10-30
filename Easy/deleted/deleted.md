@@ -34,5 +34,5 @@ After browsing the image contents, a file named `flag.txt` was found in the root
 ## Final Flag
 
 ```text
-flag{d3l3t3d1y0urDriv3}
+flag{d3l3t3dbuty0ukn0wit}
 ```

@@ -1,0 +1,3 @@
+Writeup Link:
+
+https://medium.com/@0xgbreil/jtag-dump-cybertalents-ctf-digital-forensics-challenge-79b234ef920f

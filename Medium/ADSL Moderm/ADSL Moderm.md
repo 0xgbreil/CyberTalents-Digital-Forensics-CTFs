@@ -31,6 +31,8 @@ unrar e TL-MR3220+V2+_FW.bin
 
 During extraction, the tool displays an **Archive comment** containing the flag.
 
+![ADSL Modem Challenge](2.png)
+
 ## **Flag**
 
 ```

@@ -23,7 +23,7 @@ tar -xvf mem.tar
 
 *Result:* We successfully obtained the raw memory dump file named `mem` ready for string and forensic analysis.
 
-![Extracting Memory Dump](image_9af0a8.png)
+
 
 ---
 
@@ -73,10 +73,10 @@ for key in range(1, 256):
 *Result:* Running the script with **Key 56** successfully decrypted the payload into the plaintext flag:
 
 ```text
-flag{xxxxxx_xxxxxx_xx_xx_xxxxx_xxxxxx}
+fl@g{5tanD_pr0ud_yoU_4re_stROng_you_w3rE_ab1e_t0_deTect_th1$_phi5hin9}
 ```
 
-![Python Script Execution & Flag Discovery](image_9ae19e.png)
+
 
 ---
 

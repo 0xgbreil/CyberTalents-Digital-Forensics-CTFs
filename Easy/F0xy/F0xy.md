@@ -11,6 +11,8 @@ When you encounter a challenge, any challenge at all, and you don’t know the a
 
 The challenge we have before us contains a dataset, a compressed image of a user’s hard disk. And the challenge is trying to test our knowledge of Browser Forensics, or more specifically, Mozilla Firefox forensics. If you think this clue gives you an idea and you want to try to solve the challenge one last time, feel free to pause and try again. If not, let’s do it together.
 
+![F0xy Challenge](1.png)
+
 ## Solution
 
 ### Step 1: Download the Dataset
@@ -33,19 +35,19 @@ Select the required ingest modules. There is no need to enable every module, as 
 
 Enable the relevant modules and proceed with the ingestion process.
 
-![Ingest Module Configuration](5.png)
+![Ingest Module Configuration](2.png)
 
 ### Step 5: Examine the Disk Image
 
 Once ingestion is complete, start examining the results in Autopsy.
 
-![Autopsy Case Overview](6.png)
+![Autopsy Case Overview](3.png)
 
 Navigate to **Data Artifacts → Web History**.
 
 You will notice that the user visited Twitter and accessed its login page. This indicates that the Firefox profile may contain useful login information.
 
-![Twitter Web History](1.png)
+![Twitter Web History](4.png)
 
 ### Step 6: Locate the Firefox Profile
 
@@ -55,7 +57,7 @@ Navigate to the Firefox profile directory shown in the source file path:
 
 Locate the profile associated with the user.
 
-![Firefox Profile Location](2.png)
+![Firefox Profile Location](5.png)
 
 ### Step 7: Extract the Firefox Profile
 

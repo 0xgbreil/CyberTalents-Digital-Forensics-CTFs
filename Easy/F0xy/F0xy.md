@@ -115,6 +115,7 @@ python firefox_decrypt.py -v "PATH_TO_FIREFOX_PROFILE"
 Replace `PATH_TO_FIREFOX_PROFILE` with the path to the extracted Firefox profile.
 
 The tool successfully decrypts the saved credentials and reveals the Twitter login information.
+![Firefox Profile Location](6.png)
 
 ## **Flag**
 

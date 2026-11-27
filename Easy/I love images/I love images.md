@@ -16,7 +16,7 @@ First, we download the image using `wget`:
 wget https://dr-hubchallenges.s3.us-west-2.amazonaws.com/godot.png
 ```
 
-![Download the challenge file](images/1.png)
+![Download the challenge file](1.png)
 
 Before analyzing the image, we can use the `file` command to identify its type:
 
@@ -26,7 +26,7 @@ file godot.png
 
 The output confirms that it is a PNG image.
 
-![File identification](images/2.png)
+![File identification](2.png)
 
 I tried extracting metadata using `exif` and `exiftool`, but I didn't find anything useful. So, I moved on to using `strings` to search for readable text inside the image:
 
@@ -36,11 +36,11 @@ strings godot.png | tail -n 10
 
 This revealed an interesting string at the end of the file:
 
-![Interesting string found using strings](images/3.png)
+![Interesting string found using strings](3.png)
 
 The string looks encoded, so I tried decoding it using Base64, but it didn't produce the expected result. After trying Base32 instead, I got the flag successfully.
 
-![Decoding the string using Base32](images/4.png)
+![Decoding the string using Base32](4.png)
 
 The decoded flag is:
 
